@@ -60,8 +60,10 @@ func main() {
 		err := obj.FetchUrl(collection)
 		if err != nil {     
 			c.HTML(404,"not-found.html", gin.H{})
+		} else {
+			c.Redirect(303, obj.Url)
 		}
-		c.Redirect(303, obj.Url)
+
 	})
 
 	r.GET("/", func(c *gin.Context) {
