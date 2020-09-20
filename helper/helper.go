@@ -16,8 +16,7 @@ import (
 
 
 func ConnectDb(MONGOHQ_URL string) *mongo.Collection {
-   // MONGOHQ_URL := "mongodb+srv://santa:EgIbOadoED9FVuOu@cluster0-zpliy.mongodb.net/bitly?retryWrites=true&w=majority"
-   
+  
     client, err := mongo.NewClient(options.Client().ApplyURI(MONGOHQ_URL))
     if err != nil {
         log.Fatal(err)
