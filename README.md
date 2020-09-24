@@ -1,6 +1,6 @@
 # bitly-api
 
-__demo is available here http://46.101.107.168/__    
+__demo is available here http://207.154.252.235/__    
 
 __Description__    
 
