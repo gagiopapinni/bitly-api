@@ -1,7 +1,5 @@
 # bitly-api
 
-__demo is available here http://207.154.252.235/__    
-
 __Description__    
 
 There are two endpoints: */create* [POST] and */<key\>* [GET]   
